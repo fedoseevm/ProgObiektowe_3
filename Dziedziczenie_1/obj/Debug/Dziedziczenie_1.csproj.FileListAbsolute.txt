@@ -1,0 +1,7 @@
+C:\Users\admin1\Desktop\VS Projects\Dziedziczenie_1\bin\Debug\Dziedziczenie_1.exe.config
+C:\Users\admin1\Desktop\VS Projects\Dziedziczenie_1\bin\Debug\Dziedziczenie_1.exe
+C:\Users\admin1\Desktop\VS Projects\Dziedziczenie_1\bin\Debug\Dziedziczenie_1.pdb
+C:\Users\admin1\Desktop\VS Projects\Dziedziczenie_1\obj\Debug\Dziedziczenie_1.csproj.AssemblyReference.cache
+C:\Users\admin1\Desktop\VS Projects\Dziedziczenie_1\obj\Debug\Dziedziczenie_1.csproj.CoreCompileInputs.cache
+C:\Users\admin1\Desktop\VS Projects\Dziedziczenie_1\obj\Debug\Dziedziczenie_1.exe
+C:\Users\admin1\Desktop\VS Projects\Dziedziczenie_1\obj\Debug\Dziedziczenie_1.pdb
