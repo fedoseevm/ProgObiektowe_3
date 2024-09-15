@@ -72,21 +72,20 @@ namespace Dziedziczenie_1
                 Console.WriteLine("5. Kula");
                 Console.WriteLine("6. Wyjście");
 
-                int choice = int.Parse(Console.ReadLine());
+                //Console.Write("\nWybór: ");
+                int choice = (int)(GetValidInput("\nWybór: "));
                 switch (choice)
                 {
                     case 1:
                         Rectangle rect = new Rectangle();
-                        Console.Write("\nPodaj szerokość: ");
-                        float rectWidth = float.Parse(Console.ReadLine());
-                        Console.Write("\nPodaj wysokość: ");
-                        float rectHeight = float.Parse(Console.ReadLine());
+                        float rectWidth = GetValidInput("\nPodaj szerokość: ");
+                        float rectHeight = GetValidInput("\nPodaj wysokość: ");
                         rect.SetDimensions(rectWidth, rectHeight);
                         Console.WriteLine("\nPowierzchnia prostokąta: {0}", rect.CalculateArea());
                         Console.WriteLine("Obwód prostokąta: {0}", rect.CalculatePerimeter());
                         break;
                     case 2:
-                        float circleRadius = GetValidInput("Podaj pronień koła: ");
+                        float circleRadius = GetValidInput("Podaj promień koła: ");
                         Circle circle = new Circle(circleRadius);
                         Console.WriteLine("\nPowierzchnia koła: {0}", circle.CalculateArea());
                         Console.WriteLine("Obwód koła: {0}", circle.CalculatePerimeter());

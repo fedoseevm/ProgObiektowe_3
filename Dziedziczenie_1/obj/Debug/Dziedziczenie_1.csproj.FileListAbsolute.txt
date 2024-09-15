@@ -5,3 +5,11 @@ C:\Users\admin1\Desktop\VS Projects\Dziedziczenie_1\obj\Debug\Dziedziczenie_1.cs
 C:\Users\admin1\Desktop\VS Projects\Dziedziczenie_1\obj\Debug\Dziedziczenie_1.csproj.CoreCompileInputs.cache
 C:\Users\admin1\Desktop\VS Projects\Dziedziczenie_1\obj\Debug\Dziedziczenie_1.exe
 C:\Users\admin1\Desktop\VS Projects\Dziedziczenie_1\obj\Debug\Dziedziczenie_1.pdb
+D:\GitHub reps\ProgObiektowe_3\Dziedziczenie_1\bin\Debug\Dziedziczenie_1.exe.config
+D:\GitHub reps\ProgObiektowe_3\Dziedziczenie_1\bin\Debug\Dziedziczenie_1.exe
+D:\GitHub reps\ProgObiektowe_3\Dziedziczenie_1\bin\Debug\Dziedziczenie_1.pdb
+D:\GitHub reps\ProgObiektowe_3\Dziedziczenie_1\obj\Debug\Dziedziczenie_1.csproj.AssemblyReference.cache
+D:\GitHub reps\ProgObiektowe_3\Dziedziczenie_1\obj\Debug\Dziedziczenie_1.csproj.SuggestedBindingRedirects.cache
+D:\GitHub reps\ProgObiektowe_3\Dziedziczenie_1\obj\Debug\Dziedziczenie_1.csproj.CoreCompileInputs.cache
+D:\GitHub reps\ProgObiektowe_3\Dziedziczenie_1\obj\Debug\Dziedziczenie_1.exe
+D:\GitHub reps\ProgObiektowe_3\Dziedziczenie_1\obj\Debug\Dziedziczenie_1.pdb
