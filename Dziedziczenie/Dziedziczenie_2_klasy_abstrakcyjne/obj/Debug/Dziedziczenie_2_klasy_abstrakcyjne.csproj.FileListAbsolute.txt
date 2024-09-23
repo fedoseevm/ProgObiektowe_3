@@ -1,0 +1,7 @@
+C:\Projekty\Dziedziczenie_2_klasy_abstrakcyjne\bin\Debug\Dziedziczenie_2_klasy_abstrakcyjne.exe.config
+C:\Projekty\Dziedziczenie_2_klasy_abstrakcyjne\bin\Debug\Dziedziczenie_2_klasy_abstrakcyjne.exe
+C:\Projekty\Dziedziczenie_2_klasy_abstrakcyjne\bin\Debug\Dziedziczenie_2_klasy_abstrakcyjne.pdb
+C:\Projekty\Dziedziczenie_2_klasy_abstrakcyjne\obj\Debug\Dziedziczenie_2_klasy_abstrakcyjne.csproj.AssemblyReference.cache
+C:\Projekty\Dziedziczenie_2_klasy_abstrakcyjne\obj\Debug\Dziedziczenie_2_klasy_abstrakcyjne.csproj.CoreCompileInputs.cache
+C:\Projekty\Dziedziczenie_2_klasy_abstrakcyjne\obj\Debug\Dziedziczenie_2_klasy_abstrakcyjne.exe
+C:\Projekty\Dziedziczenie_2_klasy_abstrakcyjne\obj\Debug\Dziedziczenie_2_klasy_abstrakcyjne.pdb
