@@ -95,9 +95,27 @@ public class Library
 		Console.WriteLine("Książki dostępne w bibliotece:");
 		foreach (var book in BooksList)
 		{
-			Console.WriteLine($"{book.Title} - {book.Author.FirstName} ")
+			Console.WriteLine($"{book.Title} - {book.Author.FirstName} {book.Author.LastName}")
 		}
 	}
+	public void DisplayAuthors()
+	{
+		Console.WriteLine("Autorzy w bibliotece:");
+		foreach (var author in AuthorsList)
+		{
+			Console.WriteLine($"{author.FirstName} {author.LastName}")
+		}
+	}
+	public void DisplayBorrowedBooks(Reader reader)
+	{
+		Console.WriteLine("Książki wypożyczone w bibliotece:");
+		foreach (var book in reader.BorrowedBooksList)
+		{
+			Console.WriteLine($"{book.Title} - {book.Author.FirstName} {book.Author.LastName} ({book.PublicationYear}) wypożyczona przez {reader.FirstName} {reader.LastName}")
+		}
+	}
+		
+	// Dodać metodę wyświetlająca wszystkich autorów w formie tabeli
 }
 
 namespace System_Zarzadzania_Biblioteka
@@ -106,8 +124,28 @@ namespace System_Zarzadzania_Biblioteka
 	{
 		static void Main(string[] args)
 		{
-			Author author = new Author("Adam", "Mickiewicz");
-			Book book = new Book("Pan Tadeusz", author, 1834);
+			Author author1 = new Author("Adam", "Mickiewicz");
+			Author author2 = new Author("Henryk", "Sienkiewicz");
+			
+			Book book1 = new Book("Pan Tadeusz", author1, 1834);
+			Book book2 = new Book("Quo Vadis", author2, 1896);
+
+			author1.AddBook(book1);
+			author1.AddBook(book2);
+
+			Library library = new Library();
+			library.AddAuthor(author1);
+			library.AddAuthor(author2);
+			library.AddBook(book1);
+			library.AddBook(book2);
+
+			Reader reader1 = new Reader("Jan", "Kowalski");
+			Reader reader1 = new Reader("Anna", "Nowak");
+			
+			library.AddReader(reader1);
+			library.AddReader(reader2);
+
+			// Wyświetlenie menu
 		}
 	}
 }
