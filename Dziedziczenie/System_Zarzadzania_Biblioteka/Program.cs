@@ -17,14 +17,14 @@ public class Person
 
 public class Author : Person
 {
-	public List<Book> BookList { get; set; }
+	public List<Book> BooksList { get; set; }
 	public Author(string firstName, string lastName) : base(firstName, lastName)
 	{
-		BookList = new List<Book>();
+		BooksList = new List<Book>();
 	}
 	public void AddBook(Book book)
 	{
-		BookList.Add(book);
+		BooksList.Add(book);
 	}
 }
 
@@ -95,7 +95,7 @@ public class Library
 		Console.WriteLine("Książki dostępne w bibliotece:");
 		foreach (var book in BooksList)
 		{
-			Console.WriteLine($"{book.Title} - {book.Author.FirstName} {book.Author.LastName}")
+			Console.WriteLine($"{book.Title} - {book.Author.FirstName} {book.Author.LastName}");
 		}
 	}
 	public void DisplayAuthors()
@@ -103,7 +103,7 @@ public class Library
 		Console.WriteLine("Autorzy w bibliotece:");
 		foreach (var author in AuthorsList)
 		{
-			Console.WriteLine($"{author.FirstName} {author.LastName}")
+			Console.WriteLine($"{author.FirstName} {author.LastName}");
 		}
 	}
 	public void DisplayBorrowedBooks(Reader reader)
@@ -111,7 +111,7 @@ public class Library
 		Console.WriteLine("Książki wypożyczone w bibliotece:");
 		foreach (var book in reader.BorrowedBooksList)
 		{
-			Console.WriteLine($"{book.Title} - {book.Author.FirstName} {book.Author.LastName} ({book.PublicationYear}) wypożyczona przez {reader.FirstName} {reader.LastName}")
+			Console.WriteLine($"{book.Title} - {book.Author.FirstName} {book.Author.LastName} ({book.PublicationYear}) wypożyczona przez {reader.FirstName} {reader.LastName}");
 		}
 	}
 		
@@ -140,12 +140,18 @@ namespace System_Zarzadzania_Biblioteka
 			library.AddBook(book2);
 
 			Reader reader1 = new Reader("Jan", "Kowalski");
-			Reader reader1 = new Reader("Anna", "Nowak");
+			Reader reader2 = new Reader("Anna", "Nowak");
 			
 			library.AddReader(reader1);
 			library.AddReader(reader2);
 
-			// Wyświetlenie menu
-		}
+
+            bool exit = false;
+            while (!exit)
+            {
+                // Wyświetlenie menu
+
+            }
+        }
 	}
 }
