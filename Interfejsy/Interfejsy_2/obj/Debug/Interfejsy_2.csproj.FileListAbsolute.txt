@@ -1,0 +1,7 @@
+C:\Users\Administrator\Documents\Visual Studio 2022\Interfejsy_2\bin\Debug\Interfejsy_2.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2022\Interfejsy_2\bin\Debug\Interfejsy_2.exe
+C:\Users\Administrator\Documents\Visual Studio 2022\Interfejsy_2\bin\Debug\Interfejsy_2.pdb
+C:\Users\Administrator\Documents\Visual Studio 2022\Interfejsy_2\obj\Debug\Interfejsy_2.csproj.AssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\Interfejsy_2\obj\Debug\Interfejsy_2.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Documents\Visual Studio 2022\Interfejsy_2\obj\Debug\Interfejsy_2.exe
+C:\Users\Administrator\Documents\Visual Studio 2022\Interfejsy_2\obj\Debug\Interfejsy_2.pdb
