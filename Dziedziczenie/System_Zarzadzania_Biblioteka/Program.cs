@@ -147,11 +147,67 @@ namespace System_Zarzadzania_Biblioteka
 
 
             bool exit = false;
-            while (!exit)
-            {
-                // Wyświetlenie menu
+			while (!exit)
+			{
+				// Wyświetlenie menu
+				Console.WriteLine("Menu");
+				Console.WriteLine("1. Dodaj czytelnika");
+				Console.WriteLine("2. Exit");
 
+				int choice = GetValidInt("Wybór: ");
+				switch (choice)
+				{
+					case 1:
+						string firstName = GetValidString("Podaj imie czytelnika: ");
+						string lastName = GetValidString("Podaj nazwisko czytelnika: ");
+						Reader czytelnik1 = new Reader(firstName, lastName);
+						Console.WriteLine("Dodano czytelnika {0} {1}", firstName, lastName);
+						break;
+					case 2:
+						return;
+					default:
+						Console.ForegroundColor = ConsoleColor.Red;
+						Console.WriteLine("Nieprawidłowa opcja menu. Spróbuj ponownie\n");
+						Console.ResetColor();
+						break;
+				}
+			}
+        }
+        private static string GetValidString(string prompt)
+        {
+            while (true)
+            {
+                Console.Write(prompt);
+                string input = Console.ReadLine();
+                if (!String.IsNullOrEmpty(input))
+                {
+                    return input;
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Nieprawidłowy format danych. Spróbuj ponownie\n");
+                    Console.ResetColor();
+                }
             }
         }
-	}
+        private static int GetValidInt(string prompt)
+        {
+            int result;
+            while (true)
+            {
+                Console.Write(prompt);
+                if (int.TryParse(Console.ReadLine(), out result) && result > 0)
+                {
+                    return result;
+                }
+                else
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("Nieprawidłowy format danych. Spróbuj ponownie\n");
+                    Console.ResetColor();
+                }
+            }
+        }
+    }
 }

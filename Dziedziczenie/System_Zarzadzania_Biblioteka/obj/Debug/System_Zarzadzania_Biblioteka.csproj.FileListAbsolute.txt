@@ -1,0 +1,8 @@
+D:\GitHub reps\ProgObiektowe_3\Dziedziczenie\System_Zarzadzania_Biblioteka\bin\Debug\System_Zarzadzania_Biblioteka.exe.config
+D:\GitHub reps\ProgObiektowe_3\Dziedziczenie\System_Zarzadzania_Biblioteka\bin\Debug\System_Zarzadzania_Biblioteka.exe
+D:\GitHub reps\ProgObiektowe_3\Dziedziczenie\System_Zarzadzania_Biblioteka\bin\Debug\System_Zarzadzania_Biblioteka.pdb
+D:\GitHub reps\ProgObiektowe_3\Dziedziczenie\System_Zarzadzania_Biblioteka\obj\Debug\System_Zarzadzania_Biblioteka.csproj.AssemblyReference.cache
+D:\GitHub reps\ProgObiektowe_3\Dziedziczenie\System_Zarzadzania_Biblioteka\obj\Debug\System_Zarzadzania_Biblioteka.csproj.SuggestedBindingRedirects.cache
+D:\GitHub reps\ProgObiektowe_3\Dziedziczenie\System_Zarzadzania_Biblioteka\obj\Debug\System_Zarzadzania_Biblioteka.csproj.CoreCompileInputs.cache
+D:\GitHub reps\ProgObiektowe_3\Dziedziczenie\System_Zarzadzania_Biblioteka\obj\Debug\System_Zarzadzania_Biblioteka.exe
+D:\GitHub reps\ProgObiektowe_3\Dziedziczenie\System_Zarzadzania_Biblioteka\obj\Debug\System_Zarzadzania_Biblioteka.pdb
