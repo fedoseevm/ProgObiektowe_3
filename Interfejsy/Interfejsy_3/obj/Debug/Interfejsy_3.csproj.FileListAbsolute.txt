@@ -1,0 +1,7 @@
+C:\Users\egzamin\source\repos\Interfejsy_3\bin\Debug\Interfejsy_3.exe.config
+C:\Users\egzamin\source\repos\Interfejsy_3\bin\Debug\Interfejsy_3.exe
+C:\Users\egzamin\source\repos\Interfejsy_3\bin\Debug\Interfejsy_3.pdb
+C:\Users\egzamin\source\repos\Interfejsy_3\obj\Debug\Interfejsy_3.csproj.AssemblyReference.cache
+C:\Users\egzamin\source\repos\Interfejsy_3\obj\Debug\Interfejsy_3.csproj.CoreCompileInputs.cache
+C:\Users\egzamin\source\repos\Interfejsy_3\obj\Debug\Interfejsy_3.exe
+C:\Users\egzamin\source\repos\Interfejsy_3\obj\Debug\Interfejsy_3.pdb
