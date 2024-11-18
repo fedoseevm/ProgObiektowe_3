@@ -1,0 +1,7 @@
+C:\Users\egzamin\source\repos\Sprawdzian_interfejsy_gr2\bin\Debug\Sprawdzian_interfejsy_gr2.exe.config
+C:\Users\egzamin\source\repos\Sprawdzian_interfejsy_gr2\bin\Debug\Sprawdzian_interfejsy_gr2.exe
+C:\Users\egzamin\source\repos\Sprawdzian_interfejsy_gr2\bin\Debug\Sprawdzian_interfejsy_gr2.pdb
+C:\Users\egzamin\source\repos\Sprawdzian_interfejsy_gr2\obj\Debug\Sprawdzian_interfejsy_gr2.csproj.AssemblyReference.cache
+C:\Users\egzamin\source\repos\Sprawdzian_interfejsy_gr2\obj\Debug\Sprawdzian_interfejsy_gr2.csproj.CoreCompileInputs.cache
+C:\Users\egzamin\source\repos\Sprawdzian_interfejsy_gr2\obj\Debug\Sprawdzian_interfejsy_gr2.exe
+C:\Users\egzamin\source\repos\Sprawdzian_interfejsy_gr2\obj\Debug\Sprawdzian_interfejsy_gr2.pdb

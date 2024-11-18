@@ -1,0 +1,7 @@
+C:\Users\uczen\Documents\Visual Studio 2022\Fedoseev_Maksim\bin\Debug\Fedoseev_Maksim.exe.config
+C:\Users\uczen\Documents\Visual Studio 2022\Fedoseev_Maksim\bin\Debug\Fedoseev_Maksim.exe
+C:\Users\uczen\Documents\Visual Studio 2022\Fedoseev_Maksim\bin\Debug\Fedoseev_Maksim.pdb
+C:\Users\uczen\Documents\Visual Studio 2022\Fedoseev_Maksim\obj\Debug\Fedoseev_Maksim.csproj.AssemblyReference.cache
+C:\Users\uczen\Documents\Visual Studio 2022\Fedoseev_Maksim\obj\Debug\Fedoseev_Maksim.csproj.CoreCompileInputs.cache
+C:\Users\uczen\Documents\Visual Studio 2022\Fedoseev_Maksim\obj\Debug\Fedoseev_Maksim.exe
+C:\Users\uczen\Documents\Visual Studio 2022\Fedoseev_Maksim\obj\Debug\Fedoseev_Maksim.pdb
