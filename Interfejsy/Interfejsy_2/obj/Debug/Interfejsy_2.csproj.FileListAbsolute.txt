@@ -5,3 +5,11 @@ C:\Users\Administrator\Documents\Visual Studio 2022\Interfejsy_2\obj\Debug\Inter
 C:\Users\Administrator\Documents\Visual Studio 2022\Interfejsy_2\obj\Debug\Interfejsy_2.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Documents\Visual Studio 2022\Interfejsy_2\obj\Debug\Interfejsy_2.exe
 C:\Users\Administrator\Documents\Visual Studio 2022\Interfejsy_2\obj\Debug\Interfejsy_2.pdb
+D:\GitHub reps\ProgObiektowe_3\Interfejsy\Interfejsy_2\bin\Debug\Interfejsy_2.exe.config
+D:\GitHub reps\ProgObiektowe_3\Interfejsy\Interfejsy_2\bin\Debug\Interfejsy_2.exe
+D:\GitHub reps\ProgObiektowe_3\Interfejsy\Interfejsy_2\bin\Debug\Interfejsy_2.pdb
+D:\GitHub reps\ProgObiektowe_3\Interfejsy\Interfejsy_2\obj\Debug\Interfejsy_2.csproj.AssemblyReference.cache
+D:\GitHub reps\ProgObiektowe_3\Interfejsy\Interfejsy_2\obj\Debug\Interfejsy_2.csproj.SuggestedBindingRedirects.cache
+D:\GitHub reps\ProgObiektowe_3\Interfejsy\Interfejsy_2\obj\Debug\Interfejsy_2.csproj.CoreCompileInputs.cache
+D:\GitHub reps\ProgObiektowe_3\Interfejsy\Interfejsy_2\obj\Debug\Interfejsy_2.exe
+D:\GitHub reps\ProgObiektowe_3\Interfejsy\Interfejsy_2\obj\Debug\Interfejsy_2.pdb

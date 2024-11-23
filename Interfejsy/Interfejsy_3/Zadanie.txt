@@ -1,17 +1,17 @@
-Zdefiniuj klasę Book, która ma reprezentować informacje o książce, takie jak tytuł, autor, rok wydania i cena.
-Zaimplementuj interfejs IComparable<Book> w klasie Book, który pozwala na porównywanie obiektów typu Book według ich ceny. Aby to zrobić, zdefiniuj metodę CompareTo(Book other), która zwraca liczbę całkowitą oznaczającą relację pomiędzy bieżącym obiektem a innym obiektem typu Book.
-Zdefiniuj konstruktor klasy Book, który przyjmuje jako parametry tytuł, autora, rok wydania i cenę książki i inicjalizuje odpowiednie pola klasy.
-Zdefiniuj metodę ToString() klasy Book, która zwraca reprezentację tekstową obiektu typu Book, składającą się z tytułu, autora, roku wydania i ceny książki, oddzielonych przecinkami.
-Zaimplementuj interfejs IEquatable<Book> w klasie Book, który pozwala na porównywanie obiektów typu Book pod względem równości. Zdefiniuj metodę Equals(Book other), która zwraca wartość logiczną oznaczającą, czy bieżący obiekt jest równy innemu obiektowi typu Book.
-Zaimplementuj interfejs IFormattable w klasie Book, który pozwala na dostosowanie formatu wyjściowego. Zdefiniuj metodę ToString(string? format, IFormatProvider? formatProvider), która zwraca sformatowaną reprezentację tekstową obiektu typu Book.
-Zaimplementuj interfejs IDiscountable w klasie Book, który pozwala na stosowanie zniżek do ceny książki. Zdefiniuj metodę ApplyDiscount(double percentage), która zwraca nową cenę książki po zastosowaniu zniżki.
-Zaimplementuj interfejs IReadable w klasie Book, który pozwala na symulację czytania książki. Zdefiniuj metodę Read(), która wyświetla komunikat o czytaniu książki.
-Zdefiniuj klasę EBook, która dziedziczy po klasie Book i reprezentuje e-booka. Dodaj pole format, które przechowuje format e-booka (np. PDF, EPUB). Zdefiniuj konstruktor klasy EBook, który przyjmuje dodatkowy parametr format i inicjalizuje odpowiednie pole klasy.
-Zdefiniuj metodę Download() w klasie EBook, która symuluje pobieranie e-booka, wyświetlając odpowiedni komunikat.
-Zdefiniuj klasę Program, która zawiera metodę Main, w której utwórz listę książek typu Book i dodaj do niej kilka przykładowych obiektów, w tym obiektów typu EBook.
-Posortuj listę książek według ceny, używając metody Sort klasy List<T>. Wyświetl posortowaną listę na konsoli, używając metody ToString() klasy Book.
-Posortuj listę książek według innych kryteriów, np. daty publikacji, autora, tytułu, używając metod OrderBy, OrderByDescending i ThenBy z przestrzeni nazw System.Linq. Wyświetl posortowane listy na konsoli, używając metody ToString() klasy Book.
-Porównaj dwa obiekty typu Book pod względem równości, używając metody Equals(). Wyświetl wynik porównania na konsoli.
-Zastosuj zniżkę do ceny książki, używając metody ApplyDiscount(). Wyświetl nową cenę książki na konsoli.
+- Zdefiniuj klasę Book, która ma reprezentować informacje o książce, takie jak tytuł, autor, rok wydania i cena.
+- Zaimplementuj interfejs IComparable<Book> w klasie Book, który pozwala na porównywanie obiektów typu Book według ich ceny. Aby to zrobić, zdefiniuj metodę CompareTo(Book other), która zwraca liczbę całkowitą oznaczającą relację pomiędzy bieżącym obiektem a innym obiektem typu Book.
+- Zdefiniuj konstruktor klasy Book, który przyjmuje jako parametry tytuł, autora, rok wydania i cenę książki i inicjalizuje odpowiednie pola klasy.
+- Zdefiniuj metodę ToString() klasy Book, która zwraca reprezentację tekstową obiektu typu Book, składającą się z tytułu, autora, roku wydania i ceny książki, oddzielonych przecinkami.
+- Zaimplementuj interfejs IEquatable<Book> w klasie Book, który pozwala na porównywanie obiektów typu Book pod względem równości. Zdefiniuj metodę Equals(Book other), która zwraca wartość logiczną oznaczającą, czy bieżący obiekt jest równy innemu obiektowi typu Book.
+- Zaimplementuj interfejs IFormattable w klasie Book, który pozwala na dostosowanie formatu wyjściowego. Zdefiniuj metodę ToString(string? format, IFormatProvider? formatProvider), która zwraca sformatowaną reprezentację tekstową obiektu typu Book.
+- Zaimplementuj interfejs IDiscountable w klasie Book, który pozwala na stosowanie zniżek do ceny książki. Zdefiniuj metodę ApplyDiscount(double percentage), która zwraca nową cenę książki po zastosowaniu zniżki.
+- Zaimplementuj interfejs IReadable w klasie Book, który pozwala na symulację czytania książki. Zdefiniuj metodę Read(), która wyświetla komunikat o czytaniu książki.
+- Zdefiniuj klasę EBook, która dziedziczy po klasie Book i reprezentuje e-booka. Dodaj pole format, które przechowuje format e-booka (np. PDF, EPUB). Zdefiniuj konstruktor klasy EBook, który przyjmuje dodatkowy parametr format i inicjalizuje odpowiednie pole klasy.
+- Zdefiniuj metodę Download() w klasie EBook, która symuluje pobieranie e-booka, wyświetlając odpowiedni komunikat.
+- Zdefiniuj klasę Program, która zawiera metodę Main, w której utwórz listę książek typu Book i dodaj do niej kilka przykładowych obiektów, w tym obiektów typu EBook.
+- Posortuj listę książek według ceny, używając metody Sort klasy List<T>. Wyświetl posortowaną listę na konsoli, używając metody ToString() klasy Book.
+- Posortuj listę książek według innych kryteriów, np. daty publikacji, autora, tytułu, używając metod OrderBy, OrderByDescending i ThenBy z przestrzeni nazw System.Linq. Wyświetl posortowane listy na konsoli, używając metody ToString() klasy Book.
+- Porównaj dwa obiekty typu Book pod względem równości, używając metody Equals(). Wyświetl wynik porównania na konsoli.
+- Zastosuj zniżkę do ceny książki, używając metody ApplyDiscount(). Wyświetl nową cenę książki na konsoli.
 Symuluj czytanie książki, używając metody Read(). Wyświetl odpowiedni komunikat na konsoli.
 Symuluj pobieranie e-booka, używając metody Download(). Wyświetl odpowiedni komunikat na konsoli.

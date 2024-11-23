@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace Interfejsy_3
 {
-    class Book : IComparable<Book>, IEquatable<Book>, IFormattable
+    internal interface IDiscountable
+    {
+        double ApplyDiscount(double percentage);
+    }
+    internal interface IReadable
+    {
+        void Read();
+    }
+
+    class Book : IComparable<Book>, IEquatable<Book>, IFormattable, IDiscountable, IReadable
     {
         public string title;
         public string author;
@@ -34,9 +43,44 @@ namespace Interfejsy_3
         }
 
         // Nadpisanie domyślnej metody ToString() 
-        public override string ToString()
+        //public override string ToString()
+        //{
+        //    return $"{title}, {author}, {yearOfPublication}, {price}";
+        //}
+
+        public string ToString(string format, IFormatProvider formatProvider)
         {
             return $"{title}, {author}, {yearOfPublication}, {price}";
+        }
+
+        public double ApplyDiscount(double percentage)
+        {
+            price -= price / 100 * percentage;
+            return price;
+        }
+
+        public void Read()
+        {
+            Console.WriteLine($"Czytanie książki {title} {author} {yearOfPublication}");
+        }
+
+        public virtual void Download()
+        {
+            Console.WriteLine("Nie da się pobrać fizycznej książki");
+        }
+    }
+
+    class EBook : Book
+    {
+        public string format;
+        public EBook(string title, string author, int yearOfPublication, double price, string format) : base(title, author, yearOfPublication, price)
+        {
+            this.format = format;
+        }
+
+        public override void Download()
+        {
+            Console.WriteLine($"Pobieranie książki {title} {author} {yearOfPublication}");
         }
     }
 
@@ -48,8 +92,8 @@ namespace Interfejsy_3
 
             books.Add(new Book("Hobbit", "Nowak", 1937, 45.99));
             books.Add(new Book("Hobbit2", "Pawlak", 2000, 155.99));
-            books.Add(new Book("Hobbit3", "Arbuz", 2000, 5.99));
-            books.Add(new Book("Hobbit4", "Arbuz", 1948, 5.99));
+            books.Add(new EBook("Hobbit3", "Arbuz", 2000, 5.99, "PDF"));
+            books.Add(new EBook("Hobbit4", "Arbuz", 1948, 5.99, "UPUB"));
 
             Console.WriteLine("Lista książek:");
             foreach (Book book in books)
@@ -85,6 +129,12 @@ namespace Interfejsy_3
             {
                 Console.WriteLine(book);
             }
+            Console.WriteLine("\n");
+
+            books[0].ApplyDiscount(25);
+            Console.WriteLine(books[0]);
+            books[0].Read();
+            books[2].Download();
         }
     }
 }

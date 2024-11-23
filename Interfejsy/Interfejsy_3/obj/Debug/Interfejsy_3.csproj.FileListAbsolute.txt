@@ -5,3 +5,11 @@ C:\Users\egzamin\source\repos\Interfejsy_3\obj\Debug\Interfejsy_3.csproj.Assembl
 C:\Users\egzamin\source\repos\Interfejsy_3\obj\Debug\Interfejsy_3.csproj.CoreCompileInputs.cache
 C:\Users\egzamin\source\repos\Interfejsy_3\obj\Debug\Interfejsy_3.exe
 C:\Users\egzamin\source\repos\Interfejsy_3\obj\Debug\Interfejsy_3.pdb
+D:\GitHub reps\ProgObiektowe_3\Interfejsy\Interfejsy_3\bin\Debug\Interfejsy_3.exe.config
+D:\GitHub reps\ProgObiektowe_3\Interfejsy\Interfejsy_3\bin\Debug\Interfejsy_3.exe
+D:\GitHub reps\ProgObiektowe_3\Interfejsy\Interfejsy_3\bin\Debug\Interfejsy_3.pdb
+D:\GitHub reps\ProgObiektowe_3\Interfejsy\Interfejsy_3\obj\Debug\Interfejsy_3.csproj.AssemblyReference.cache
+D:\GitHub reps\ProgObiektowe_3\Interfejsy\Interfejsy_3\obj\Debug\Interfejsy_3.csproj.SuggestedBindingRedirects.cache
+D:\GitHub reps\ProgObiektowe_3\Interfejsy\Interfejsy_3\obj\Debug\Interfejsy_3.csproj.CoreCompileInputs.cache
+D:\GitHub reps\ProgObiektowe_3\Interfejsy\Interfejsy_3\obj\Debug\Interfejsy_3.exe
+D:\GitHub reps\ProgObiektowe_3\Interfejsy\Interfejsy_3\obj\Debug\Interfejsy_3.pdb
