@@ -1,0 +1,7 @@
+C:\Users\egzamin\source\repos\Delegaty_2\bin\Debug\Delegaty_2.exe.config
+C:\Users\egzamin\source\repos\Delegaty_2\bin\Debug\Delegaty_2.exe
+C:\Users\egzamin\source\repos\Delegaty_2\bin\Debug\Delegaty_2.pdb
+C:\Users\egzamin\source\repos\Delegaty_2\obj\Debug\Delegaty_2.csproj.AssemblyReference.cache
+C:\Users\egzamin\source\repos\Delegaty_2\obj\Debug\Delegaty_2.csproj.CoreCompileInputs.cache
+C:\Users\egzamin\source\repos\Delegaty_2\obj\Debug\Delegaty_2.exe
+C:\Users\egzamin\source\repos\Delegaty_2\obj\Debug\Delegaty_2.pdb
