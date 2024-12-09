@@ -1,0 +1,4 @@
+[2024-12-09 08:34:09] Wysłano: Notify, wiadomość: Witaj!
+[2024-12-09 08:34:09] Wysłano: Notify, wiadomość: Witaj!
+[2024-12-09 08:34:09] Wysłano: Notify, wiadomość: Witaj!
+[2024-12-09 08:35:37] Wysłano: Notify, wiadomość: test

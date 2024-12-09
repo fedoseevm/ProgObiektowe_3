@@ -5,3 +5,10 @@ C:\Users\egzamin\source\repos\Delegaty_2\obj\Debug\Delegaty_2.csproj.AssemblyRef
 C:\Users\egzamin\source\repos\Delegaty_2\obj\Debug\Delegaty_2.csproj.CoreCompileInputs.cache
 C:\Users\egzamin\source\repos\Delegaty_2\obj\Debug\Delegaty_2.exe
 C:\Users\egzamin\source\repos\Delegaty_2\obj\Debug\Delegaty_2.pdb
+C:\3E MF\ProgObiektowe_3\Delegaty\Delegaty_2\obj\Debug\Delegaty_2.csproj.AssemblyReference.cache
+C:\3E MF\ProgObiektowe_3\Delegaty\Delegaty_2\obj\Debug\Delegaty_2.csproj.CoreCompileInputs.cache
+C:\3E MF\ProgObiektowe_3\Delegaty\Delegaty_2\obj\Debug\Delegaty_2.exe
+C:\3E MF\ProgObiektowe_3\Delegaty\Delegaty_2\obj\Debug\Delegaty_2.pdb
+C:\3E MF\ProgObiektowe_3\Delegaty\Delegaty_2\bin\Debug\Delegaty_2.exe.config
+C:\3E MF\ProgObiektowe_3\Delegaty\Delegaty_2\bin\Debug\Delegaty_2.exe
+C:\3E MF\ProgObiektowe_3\Delegaty\Delegaty_2\bin\Debug\Delegaty_2.pdb
