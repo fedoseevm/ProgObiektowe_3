@@ -1,0 +1,15 @@
+C:\Users\uczen\source\repos\Delegaty_2_2\bin\Debug\net7.0\Delegaty_2_2.exe
+C:\Users\uczen\source\repos\Delegaty_2_2\bin\Debug\net7.0\Delegaty_2_2.deps.json
+C:\Users\uczen\source\repos\Delegaty_2_2\bin\Debug\net7.0\Delegaty_2_2.runtimeconfig.json
+C:\Users\uczen\source\repos\Delegaty_2_2\bin\Debug\net7.0\Delegaty_2_2.dll
+C:\Users\uczen\source\repos\Delegaty_2_2\bin\Debug\net7.0\Delegaty_2_2.pdb
+C:\Users\uczen\source\repos\Delegaty_2_2\obj\Debug\net7.0\Delegaty_2_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\uczen\source\repos\Delegaty_2_2\obj\Debug\net7.0\Delegaty_2_2.AssemblyInfoInputs.cache
+C:\Users\uczen\source\repos\Delegaty_2_2\obj\Debug\net7.0\Delegaty_2_2.AssemblyInfo.cs
+C:\Users\uczen\source\repos\Delegaty_2_2\obj\Debug\net7.0\Delegaty_2_2.csproj.CoreCompileInputs.cache
+C:\Users\uczen\source\repos\Delegaty_2_2\obj\Debug\net7.0\Delegaty_2_2.sourcelink.json
+C:\Users\uczen\source\repos\Delegaty_2_2\obj\Debug\net7.0\Delegaty_2_2.dll
+C:\Users\uczen\source\repos\Delegaty_2_2\obj\Debug\net7.0\refint\Delegaty_2_2.dll
+C:\Users\uczen\source\repos\Delegaty_2_2\obj\Debug\net7.0\Delegaty_2_2.pdb
+C:\Users\uczen\source\repos\Delegaty_2_2\obj\Debug\net7.0\Delegaty_2_2.genruntimeconfig.cache
+C:\Users\uczen\source\repos\Delegaty_2_2\obj\Debug\net7.0\ref\Delegaty_2_2.dll
