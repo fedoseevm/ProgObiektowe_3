@@ -5,3 +5,11 @@ C:\Users\egzamin\source\repos\Delegaty_1\obj\Debug\Delegaty_1.csproj.AssemblyRef
 C:\Users\egzamin\source\repos\Delegaty_1\obj\Debug\Delegaty_1.csproj.CoreCompileInputs.cache
 C:\Users\egzamin\source\repos\Delegaty_1\obj\Debug\Delegaty_1.exe
 C:\Users\egzamin\source\repos\Delegaty_1\obj\Debug\Delegaty_1.pdb
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_1\bin\Debug\Delegaty_1.exe.config
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_1\bin\Debug\Delegaty_1.exe
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_1\bin\Debug\Delegaty_1.pdb
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_1\obj\Debug\Delegaty_1.csproj.AssemblyReference.cache
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_1\obj\Debug\Delegaty_1.csproj.SuggestedBindingRedirects.cache
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_1\obj\Debug\Delegaty_1.csproj.CoreCompileInputs.cache
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_1\obj\Debug\Delegaty_1.exe
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_1\obj\Debug\Delegaty_1.pdb
