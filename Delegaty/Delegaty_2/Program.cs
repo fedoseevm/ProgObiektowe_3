@@ -35,7 +35,7 @@ namespace Delegaty_2
             //}
         }
 
-        public class SMSNotifier
+        public class SMSNotifier : INotifier
         {
 			public void Notify(string message)
 			{
@@ -54,7 +54,7 @@ namespace Delegaty_2
 			//}
 		}
 
-        public class PushNotifier
+        public class PushNotifier : INotifier
         {
 			public void Notify(string message)
 			{
