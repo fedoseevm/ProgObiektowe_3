@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+GzceMtsut9dTikAOaedKXVN1TiSD/E/s1bglcrvYbFtDSZ6j7Mclkj1Vfc1d85/cKmuxoqycGbZyJTaKB9DaA==",
+  "dgSpecHash": "eaiCklfUBYIhmTkrdW5e85B7afZb5p+Bx8V1CchEXIEXBsC2SfReRCoBc8JG7JxPzccEdNZZsqxT6ZKLLQeE+Q==",
   "success": true,
-  "projectFilePath": "C:\\3E MF\\ProgObiektowe_3\\Delegaty\\Delegaty_2_2\\Delegaty_2_2.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\uczen\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.9\\microsoft.windowsdesktop.app.ref.7.0.9.nupkg.sha512",
-    "C:\\Users\\uczen\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.9\\microsoft.netcore.app.ref.7.0.9.nupkg.sha512",
-    "C:\\Users\\uczen\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.9\\microsoft.aspnetcore.app.ref.7.0.9.nupkg.sha512",
-    "C:\\Users\\uczen\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.9\\microsoft.netcore.app.host.win-x64.7.0.9.nupkg.sha512"
-  ],
+  "projectFilePath": "D:\\GitHub reps\\ProgObiektowe_3\\Delegaty\\Delegaty_2_2\\Delegaty_2_2.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

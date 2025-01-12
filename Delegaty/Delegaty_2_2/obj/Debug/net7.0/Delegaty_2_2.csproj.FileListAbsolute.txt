@@ -13,3 +13,18 @@ C:\Users\uczen\source\repos\Delegaty_2_2\obj\Debug\net7.0\refint\Delegaty_2_2.dl
 C:\Users\uczen\source\repos\Delegaty_2_2\obj\Debug\net7.0\Delegaty_2_2.pdb
 C:\Users\uczen\source\repos\Delegaty_2_2\obj\Debug\net7.0\Delegaty_2_2.genruntimeconfig.cache
 C:\Users\uczen\source\repos\Delegaty_2_2\obj\Debug\net7.0\ref\Delegaty_2_2.dll
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_2_2\bin\Debug\net7.0\Delegaty_2_2.exe
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_2_2\bin\Debug\net7.0\Delegaty_2_2.deps.json
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_2_2\bin\Debug\net7.0\Delegaty_2_2.runtimeconfig.json
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_2_2\bin\Debug\net7.0\Delegaty_2_2.dll
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_2_2\bin\Debug\net7.0\Delegaty_2_2.pdb
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_2_2\obj\Debug\net7.0\Delegaty_2_2.csproj.AssemblyReference.cache
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_2_2\obj\Debug\net7.0\Delegaty_2_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_2_2\obj\Debug\net7.0\Delegaty_2_2.AssemblyInfoInputs.cache
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_2_2\obj\Debug\net7.0\Delegaty_2_2.AssemblyInfo.cs
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_2_2\obj\Debug\net7.0\Delegaty_2_2.csproj.CoreCompileInputs.cache
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_2_2\obj\Debug\net7.0\Delegaty_2_2.dll
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_2_2\obj\Debug\net7.0\refint\Delegaty_2_2.dll
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_2_2\obj\Debug\net7.0\Delegaty_2_2.pdb
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_2_2\obj\Debug\net7.0\Delegaty_2_2.genruntimeconfig.cache
+D:\GitHub reps\ProgObiektowe_3\Delegaty\Delegaty_2_2\obj\Debug\net7.0\ref\Delegaty_2_2.dll

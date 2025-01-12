@@ -58,6 +58,7 @@
 			{
 				if (users.Remove(name))
 				{
+                    users.Remove(name);
                     Console.WriteLine($"Usunięto użytkownika: {name}");
                 }
 				else
@@ -109,12 +110,13 @@
                 }
 
                 Console.WriteLine($"Wiadomość: \"{message}\"");
-				foreach (var notifier in notifiers)
-				{
-					notifier.Notify(message);
-				}
+				//foreach (var notifier in notifiers)
+				//{
+				//	notifier.Notify(message);
+				//}
+				Notify.Invoke(message);
 
-				Console.WriteLine("Powiadomienie zostało wysłane do: ");
+				Console.WriteLine("\nPowiadomienie zostało wysłane do: ");
 				foreach (var user in filteredUsers)
 				{
                     Console.WriteLine($" - {user.Name} (priorytet: {user.Priority})");
@@ -126,6 +128,7 @@
 				if (!notifiers.Contains(notifier))
 				{
 					notifiers.Add(notifier);
+					Notify += notifier.Notify;
                     Console.WriteLine("Metoda powiadomienia została dodana");
                 }
 				else
@@ -139,6 +142,7 @@
 				if (notifiers.Contains(notifier))
 				{
 					notifiers.Remove(notifier);
+                    Notify -= notifier.Notify;
                     Console.WriteLine("Metoda powiadomienia zostałą usunięta");
                 }
 				else
@@ -175,17 +179,116 @@
 			{
 				Console.WriteLine("\nMenu");
 				Console.WriteLine("1. Dodaj użytkownika");
-                Console.WriteLine("2. Usuń użytkownika");
-                Console.WriteLine("3. Wyślij powiadomienie do użytkownika");
-                Console.WriteLine("4. Wyświetl użytkowników");
-                Console.WriteLine("5. Dodaj metodę powiadomień");
-                Console.WriteLine("6. Usuń metodę powiadomień");
-                Console.WriteLine("7. Wyświetl metody powiadomień");
-                Console.WriteLine("8. Wyjdź");
+				Console.WriteLine("2. Usuń użytkownika");
+				Console.WriteLine("3. Wyślij powiadomienie do użytkownika");
+				Console.WriteLine("4. Wyświetl użytkowników");
+				Console.WriteLine("5. Dodaj metodę powiadomień");
+				Console.WriteLine("6. Usuń metodę powiadomień");
+				Console.WriteLine("7. Wyświetl metody powiadomień");
+				Console.WriteLine("8. Wyjdź");
 
-				Console.WriteLine("\nWyberz opcję: ");
+				Console.Write("\nWyberz opcję: ");
 				var choice = Console.ReadLine();
+
+				switch (choice)
+				{
+					case "1":
+                        Console.Write("Podaj imię użytkownika: ");
+						string name = Console.ReadLine();
+
+						int priority = GetValidPriority("Podaj priorytet użytkownika (liczba całkowita od 1 do 3: ");
+                        notificationManager.AddUser(name, priority);
+						break;
+					case "2":
+                        Console.Write("Podaj imię użytkownika, którego chcesz usunąć: ");
+						notificationManager.RemoveUser(Console.ReadLine());
+                        break;
+					case "3":
+                        Console.Write("Wpisz swoją wiadomość: ");
+                        string message = Console.ReadLine();
+
+                        priority = GetValidPriority("Podaj priorytet użytkowników, do których będzie wysłana wiadomość (liczba całkowita od 1 do 3: ");
+						notificationManager.SendNotification(message, priority);
+						break;
+					case "4":
+						notificationManager.ListUsers();
+                        break;
+					case "5":
+                        Console.WriteLine("Wybierz metodę powiadamiania: ");
+                        Console.WriteLine("\t1. Email");
+                        Console.WriteLine("\t2. SMS");
+                        Console.WriteLine("\t3. Powiadomienie PUSH");
+
+                        Console.Write("\nWyberz opcję: ");
+						choice = Console.ReadLine();
+						switch (choice)
+						{
+							case "1":
+								notificationManager.AddNotifier(emailNotifier);
+								break;
+							case "2":
+								notificationManager.AddNotifier(smsNotifier);
+								break;
+							case "3":
+								notificationManager.AddNotifier(pushNotifier);
+								break;
+							default:
+                                Console.WriteLine("Nieprawidłowy wybór. Naciśnij dowolny klawisz");
+								Console.ReadKey();
+								break;
+                        }
+						break;
+					case "6":
+                        Console.WriteLine("Wybierz metodę powiadamiania do usunięcia: ");
+                        Console.WriteLine("\t1. Email");
+                        Console.WriteLine("\t2. SMS");
+                        Console.WriteLine("\t3. Powiadomienie PUSH");
+
+                        Console.Write("\nWyberz opcję: ");
+                        choice = Console.ReadLine();
+                        switch (choice)
+                        {
+                            case "1":
+                                notificationManager.RemoveNotifier(emailNotifier);
+                                break;
+                            case "2":
+                                notificationManager.RemoveNotifier(smsNotifier);
+                                break;
+                            case "3":
+                                notificationManager.RemoveNotifier(pushNotifier);
+                                break;
+                            default:
+                                Console.WriteLine("Nieprawidłowy wybór. Naciśnij dowolny klawisz");
+                                Console.ReadKey();
+                                break;
+                        }
+                        break;
+					case "7":
+						notificationManager.ListNotifiers();
+                        break;
+					case "8":
+						return;
+					default:
+                        Console.WriteLine("Błędne dane. Wybierz poprawną opcję");
+						break;
+                }
 			}
 		}
-	}
+
+        private static int GetValidPriority(string prompt)
+        {
+            while (true)
+			{
+                Console.Write(prompt);
+				if (int.TryParse(Console.ReadLine(), out int result) && result >= 1 && result <= 3)
+				{
+					return result;
+				}
+				else
+				{
+                    Console.WriteLine("Błędne dane. Spróbuj ponownie\n");
+                }
+            }
+        }
+    }
 }
