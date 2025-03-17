@@ -5,112 +5,105 @@ using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
+using Zdarzenia_1.src.Enums;
+using Zdarzenia_1.src.Models;
+using Zdarzenia_1.src.Services;
 
 namespace Zdarzenia_1 {
 	internal class Program {
-		public enum Role {
-			Administrator,
-			Manager,
-			User
-		}
-
-		public class User {
-			public string Username { get; set; }
-			public List<Role> Roles { get; set; }
-
-			public User(string username) {
-				Username = username;
-				Roles = new List<Role>();
-			}
-
-			public void AddRole(Role role) { 
-				if (!Roles.Contains(role)) {
-					Roles.Add(role);
-				}
-			}
-		}
-
-		// RBAC - Role-Based Access Control
-		public class RBAC {
-			private readonly Dictionary<Role, List<string>> rolePermission;
-
-			public RBAC() {
-				rolePermission = new Dictionary<Role, List<string>>() {
-					{Role.Administrator, new List<string>{"Read", "Write", "Delete"} },
-					{Role.Manager, new List<string>{"Read", "Write"} },
-					{Role.User, new List<string>{"Read"} }
-				};
-			}
-			public bool HasPermission(User user, string permission) {
-				foreach(var role in user.Roles) {
-					if(rolePermission.ContainsKey(role) && rolePermission[role].Contains(permission)) {
-						return true;
-					}
-				}
-				return false;
-			}
-		}
-
-
-		public class PasswordManager {
-			private const string passwordFilePath = "userPasswords.txt";
-			public static event Action<string, bool> PasswordVerified;
-
-			static PasswordManager() {
-				if (!File.Exists(passwordFilePath)) {
-					File.Create(passwordFilePath).Dispose();
-				}
-			}
-
-			public static void SavePassword(string username, string password) {
-				if (File.ReadLines(passwordFilePath).Any(line => line.Split(',')[0] == username)) {
-					Console.WriteLine($"Użytkownik {username} już ustnieje w systemie");
-					return;
-				}
-
-				string hashedPassword = HashPassword(password);
-				File.AppendAllText(passwordFilePath, $"{username},{hashedPassword}\n");
-				Console.WriteLine($"Użytkownik {username} został zapisany");
-			}
-
-			private static string HashPassword(string password) {
-				using (var sha256 = SHA256.Create()) {
-					var bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
-					return Convert.ToBase64String(bytes);
-				}
-			}
-
-			public static bool VerifyPassword(string username, string password) {
-				string hashedPassword = HashPassword(password);
-
-				foreach(var line in File.ReadLines(passwordFilePath)) {
-					var parts = line.Split(',');
-					if(parts[0] == username && parts[1] == hashedPassword) {
-						PasswordVerified?.Invoke(username, true);
-						return true;
-					}
-				}
-				PasswordVerified?.Invoke(username, false);
-				return false;
-			}
-		}
 		static void Main(string[] args) {
 			PasswordManager.PasswordVerified += (name, success) => Console.WriteLine($"Logowanie użytkownika {name}: {(success ? "udane" : "nieudane")}");
 
-			PasswordManager.SavePassword("admin", "pass");
+            PasswordManager.SavePassword("admin", "pass");
+            PasswordManager.SavePassword("manager", "pass");
+            PasswordManager.SavePassword("normalUser", "pass");
+            PasswordManager.SavePassword("xyz", "pass");
 
-			Console.Write("\nWprowadź użytkownika: ");
-			string username = Console.ReadLine();
 
-			Console.Write("\nWprowadź hasło: ");
-			string password = Console.ReadLine();
+            Console.WriteLine("Logowanie udane");
 
-			if (!PasswordManager.VerifyPassword(username, password)) {
-				Console.WriteLine("Niepoprawna nazwa użytkownika lub hasło.");
-				return;
+			bool exitProgram = false;
+			
+			while (!exitProgram) {
+				Console.Clear();
+				Console.WriteLine("---- System logowania ----");
+
+                Console.Write("\nWprowadź użytkownika: ");
+                string username = Console.ReadLine();
+
+                Console.Write("\nWprowadź hasło: ");
+                string password = Console.ReadLine();
+
+                if (!PasswordManager.VerifyPassword(username, password)) {
+					Console.WriteLine("Niepoprawna nazwa użytkownika lub hasło.");
+					Console.ReadKey();
+					continue;
+                }
+
+                var user = new User(username);
+
+                if (username == "admin") {
+                    user.AddRole(Role.Administrator);
+                } else if (username == "manager") {
+                    user.AddRole(Role.Manager);
+                } else if (username == "normalUser") {
+                    user.AddRole(Role.User);
+                }
+
+                var rbacSystem = new RBAC();
+				string filePath = "testFile.txt";
+
+				bool loggedIn = true;
+				while (loggedIn) {
+					Console.Clear();
+                    Console.WriteLine($"Zalogowano jako: {username}\n");
+
+					Console.WriteLine("Wybierz opcję: ");
+                    Console.WriteLine("1. Odczytaj plik");
+					if (rbacSystem.HasPermission(user, Permission.Write))
+						Console.WriteLine("2. Zapisz do pliku");
+					if (rbacSystem.HasPermission(user, Permission.Delete))
+						Console.WriteLine("3. Modyfikuj plik");
+					if (rbacSystem.HasPermission(user, Permission.ManageUsers))
+						Console.WriteLine("4. Dodaj użytkownika");
+					Console.WriteLine("5. Wyloguj się");
+                    Console.WriteLine("6. Wyjdź z programu");
+
+					int choice;
+					if (!int.TryParse(Console.ReadLine(), out choice) && choice < 1 && choice > 6) {
+						Console.WriteLine("Niepoprawna wybór. Spróbuj ponownie");
+						continue;
+					}
+
+					switch (choice) {
+						case 1:
+							FileManager.ReadFile(filePath);
+							break;
+						case 2:
+							if (rbacSystem.HasPermission(user, Permission.Write))
+								FileManager.WriteToFile(filePath);
+							break;
+						case 3:
+							if (rbacSystem.HasPermission(user, Permission.Delete))
+								FileManager.ModifyFile(filePath);
+							break;
+						case 4:
+							if (rbacSystem.HasPermission(user, Permission.ManageUsers))
+								FileManager.AddNewUser();
+							break;
+						case 5:
+							Console.WriteLine("wylogowano");
+							loggedIn = false;
+							break;
+						case 6:
+							Console.WriteLine("Zamykanie programu");
+							Environment.Exit(0);
+							break;
+					}
+					Console.ReadKey();
+				}
+				Console.ReadKey();
 			}
-
-			Console.WriteLine("Logowanie udane");
 		}
 	}
 }

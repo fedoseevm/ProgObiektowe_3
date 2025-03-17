@@ -45,9 +45,19 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\Enums\Permission.cs" />
+    <Compile Include="src\Enums\Role.cs" />
+    <Compile Include="src\Models\User.cs" />
+    <Compile Include="src\Services\FileManager.cs" />
+    <Compile Include="src\Services\PasswordManager.cs" />
+    <Compile Include="src\Services\RBAC.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Data\" />
+    <Folder Include="Tests\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

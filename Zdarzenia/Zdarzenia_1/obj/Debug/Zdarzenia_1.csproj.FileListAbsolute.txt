@@ -5,3 +5,10 @@ C:\Users\ADMIN\3E MF\ProgObiektowe_3\Zdarzenia\Zdarzenia_1\bin\Debug\Zdarzenia_1
 C:\Users\ADMIN\3E MF\ProgObiektowe_3\Zdarzenia\Zdarzenia_1\bin\Debug\Zdarzenia_1.pdb
 C:\Users\ADMIN\3E MF\ProgObiektowe_3\Zdarzenia\Zdarzenia_1\obj\Debug\Zdarzenia_1.exe
 C:\Users\ADMIN\3E MF\ProgObiektowe_3\Zdarzenia\Zdarzenia_1\obj\Debug\Zdarzenia_1.pdb
+C:\Users\egzamin\3E MF\ProgObiektowe_3\Zdarzenia\Zdarzenia_1\bin\Debug\Zdarzenia_1.exe.config
+C:\Users\egzamin\3E MF\ProgObiektowe_3\Zdarzenia\Zdarzenia_1\bin\Debug\Zdarzenia_1.exe
+C:\Users\egzamin\3E MF\ProgObiektowe_3\Zdarzenia\Zdarzenia_1\bin\Debug\Zdarzenia_1.pdb
+C:\Users\egzamin\3E MF\ProgObiektowe_3\Zdarzenia\Zdarzenia_1\obj\Debug\Zdarzenia_1.csproj.AssemblyReference.cache
+C:\Users\egzamin\3E MF\ProgObiektowe_3\Zdarzenia\Zdarzenia_1\obj\Debug\Zdarzenia_1.csproj.CoreCompileInputs.cache
+C:\Users\egzamin\3E MF\ProgObiektowe_3\Zdarzenia\Zdarzenia_1\obj\Debug\Zdarzenia_1.exe
+C:\Users\egzamin\3E MF\ProgObiektowe_3\Zdarzenia\Zdarzenia_1\obj\Debug\Zdarzenia_1.pdb

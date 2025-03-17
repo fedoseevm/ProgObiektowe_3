@@ -1,10 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN\\3E MF\\ProgObiektowe_3\\Zdarzenia\\Zdarzenia_1\\",
+  "WorkspaceRootPath": "C:\\Users\\egzamin\\3E MF\\ProgObiektowe_3\\Zdarzenia\\Zdarzenia_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{261D0159-66ED-4CA8-A647-9BC43F1E5D91}|Zdarzenia_1.csproj|c:\\users\\admin\\3e mf\\progobiektowe_3\\zdarzenia\\zdarzenia_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{261D0159-66ED-4CA8-A647-9BC43F1E5D91}|Zdarzenia_1.csproj|c:\\users\\egzamin\\3e mf\\progobiektowe_3\\zdarzenia\\zdarzenia_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{261D0159-66ED-4CA8-A647-9BC43F1E5D91}|Zdarzenia_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261D0159-66ED-4CA8-A647-9BC43F1E5D91}|Zdarzenia_1.csproj|c:\\users\\egzamin\\3e mf\\progobiektowe_3\\zdarzenia\\zdarzenia_1\\src\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261D0159-66ED-4CA8-A647-9BC43F1E5D91}|Zdarzenia_1.csproj|solutionrelative:src\\enums\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261D0159-66ED-4CA8-A647-9BC43F1E5D91}|Zdarzenia_1.csproj|c:\\users\\egzamin\\3e mf\\progobiektowe_3\\zdarzenia\\zdarzenia_1\\src\\services\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261D0159-66ED-4CA8-A647-9BC43F1E5D91}|Zdarzenia_1.csproj|solutionrelative:src\\services\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261D0159-66ED-4CA8-A647-9BC43F1E5D91}|Zdarzenia_1.csproj|c:\\users\\egzamin\\3e mf\\progobiektowe_3\\zdarzenia\\zdarzenia_1\\src\\services\\passwordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261D0159-66ED-4CA8-A647-9BC43F1E5D91}|Zdarzenia_1.csproj|solutionrelative:src\\services\\passwordmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261D0159-66ED-4CA8-A647-9BC43F1E5D91}|Zdarzenia_1.csproj|c:\\users\\egzamin\\3e mf\\progobiektowe_3\\zdarzenia\\zdarzenia_1\\src\\services\\rbac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261D0159-66ED-4CA8-A647-9BC43F1E5D91}|Zdarzenia_1.csproj|solutionrelative:src\\services\\rbac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261D0159-66ED-4CA8-A647-9BC43F1E5D91}|Zdarzenia_1.csproj|c:\\users\\egzamin\\3e mf\\progobiektowe_3\\zdarzenia\\zdarzenia_1\\src\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261D0159-66ED-4CA8-A647-9BC43F1E5D91}|Zdarzenia_1.csproj|solutionrelative:src\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{261D0159-66ED-4CA8-A647-9BC43F1E5D91}|Zdarzenia_1.csproj|c:\\users\\egzamin\\3e mf\\progobiektowe_3\\zdarzenia\\zdarzenia_1\\src\\enums\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{261D0159-66ED-4CA8-A647-9BC43F1E5D91}|Zdarzenia_1.csproj|solutionrelative:src\\enums\\permission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +38,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RBAC.cs",
+              "DocumentMoniker": "C:\\Users\\egzamin\\3E MF\\ProgObiektowe_3\\Zdarzenia\\Zdarzenia_1\\src\\Services\\RBAC.cs",
+              "RelativeDocumentMoniker": "src\\Services\\RBAC.cs",
+              "ToolTip": "C:\\Users\\egzamin\\3E MF\\ProgObiektowe_3\\Zdarzenia\\Zdarzenia_1\\src\\Services\\RBAC.cs",
+              "RelativeToolTip": "src\\Services\\RBAC.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:46:14.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PasswordManager.cs",
+              "DocumentMoniker": "C:\\Users\\egzamin\\3E MF\\ProgObiektowe_3\\Zdarzenia\\Zdarzenia_1\\src\\Services\\PasswordManager.cs",
+              "RelativeDocumentMoniker": "src\\Services\\PasswordManager.cs",
+              "ToolTip": "C:\\Users\\egzamin\\3E MF\\ProgObiektowe_3\\Zdarzenia\\Zdarzenia_1\\src\\Services\\PasswordManager.cs",
+              "RelativeToolTip": "src\\Services\\PasswordManager.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:46:07.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FileManager.cs",
+              "DocumentMoniker": "C:\\Users\\egzamin\\3E MF\\ProgObiektowe_3\\Zdarzenia\\Zdarzenia_1\\src\\Services\\FileManager.cs",
+              "RelativeDocumentMoniker": "src\\Services\\FileManager.cs",
+              "ToolTip": "C:\\Users\\egzamin\\3E MF\\ProgObiektowe_3\\Zdarzenia\\Zdarzenia_1\\src\\Services\\FileManager.cs",
+              "RelativeToolTip": "src\\Services\\FileManager.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwBoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:45:50.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\egzamin\\3E MF\\ProgObiektowe_3\\Zdarzenia\\Zdarzenia_1\\src\\Models\\User.cs",
+              "RelativeDocumentMoniker": "src\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\egzamin\\3E MF\\ProgObiektowe_3\\Zdarzenia\\Zdarzenia_1\\src\\Models\\User.cs",
+              "RelativeToolTip": "src\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:45:36.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\egzamin\\3E MF\\ProgObiektowe_3\\Zdarzenia\\Zdarzenia_1\\src\\Enums\\Role.cs",
+              "RelativeDocumentMoniker": "src\\Enums\\Role.cs",
+              "ToolTip": "C:\\Users\\egzamin\\3E MF\\ProgObiektowe_3\\Zdarzenia\\Zdarzenia_1\\src\\Enums\\Role.cs",
+              "RelativeToolTip": "src\\Enums\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:45:07.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Permission.cs",
+              "DocumentMoniker": "C:\\Users\\egzamin\\3E MF\\ProgObiektowe_3\\Zdarzenia\\Zdarzenia_1\\src\\Enums\\Permission.cs",
+              "RelativeDocumentMoniker": "src\\Enums\\Permission.cs",
+              "ToolTip": "C:\\Users\\egzamin\\3E MF\\ProgObiektowe_3\\Zdarzenia\\Zdarzenia_1\\src\\Enums\\Permission.cs",
+              "RelativeToolTip": "src\\Enums\\Permission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T13:44:59.446Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\3E MF\\ProgObiektowe_3\\Zdarzenia\\Zdarzenia_1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\egzamin\\3E MF\\ProgObiektowe_3\\Zdarzenia\\Zdarzenia_1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\3E MF\\ProgObiektowe_3\\Zdarzenia\\Zdarzenia_1\\Program.cs",
+              "ToolTip": "C:\\Users\\egzamin\\3E MF\\ProgObiektowe_3\\Zdarzenia\\Zdarzenia_1\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAIwGEAAABpAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAiwFcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T13:34:06.532Z",
               "EditorCaption": ""
