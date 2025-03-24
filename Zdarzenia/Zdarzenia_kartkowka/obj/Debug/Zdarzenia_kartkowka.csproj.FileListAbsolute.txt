@@ -1,0 +1,7 @@
+C:\Users\uczen\Desktop\prop\Zdarzenia_kartkowka\bin\Debug\Zdarzenia_kartkowka.exe.config
+C:\Users\uczen\Desktop\prop\Zdarzenia_kartkowka\bin\Debug\Zdarzenia_kartkowka.exe
+C:\Users\uczen\Desktop\prop\Zdarzenia_kartkowka\bin\Debug\Zdarzenia_kartkowka.pdb
+C:\Users\uczen\Desktop\prop\Zdarzenia_kartkowka\obj\Debug\Zdarzenia_kartkowka.csproj.AssemblyReference.cache
+C:\Users\uczen\Desktop\prop\Zdarzenia_kartkowka\obj\Debug\Zdarzenia_kartkowka.csproj.CoreCompileInputs.cache
+C:\Users\uczen\Desktop\prop\Zdarzenia_kartkowka\obj\Debug\Zdarzenia_kartkowka.exe
+C:\Users\uczen\Desktop\prop\Zdarzenia_kartkowka\obj\Debug\Zdarzenia_kartkowka.pdb

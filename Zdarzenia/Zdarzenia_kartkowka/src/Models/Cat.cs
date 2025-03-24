@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using AnimalApp.Enums;
+
+namespace AnimalApp.Models
+{
+	public class Cat : Animal
+	{
+		public Cat(string name) : base(name, AnimalType.Cat) { }
+
+		public override void MakeSound()
+		{
+			Console.WriteLine($"{Name} miauczy: Miau miau!");
+		}
+	}
+}
